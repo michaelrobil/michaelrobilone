@@ -3,16 +3,14 @@
 }
 body {
     background-color: rgb(229, 226, 226);
-    padding: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .topnav {
     background-color: white;
     overflow: hidden;
     margin-bottom: 30px;
+    width: 100%;
 }
 a:hover {
     background-color: #009999;
@@ -45,13 +43,13 @@ a:hover {
     font-size: 30px;
 }
 main {
+    width: 740px;
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 2px;
     border: 2px solid #dddddd;
     border-radius: 2px;
     background-color:white;
     padding: 16px 20px;
-    width: 60%;
     height: auto;
     line-height: 30px;
     margin: 48px 12px 50px 254px;

@@ -3,11 +3,8 @@
 }
 body {
     background-color: rgb(229, 226, 226);
-    padding: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .topnav {
     background-color: white;
@@ -49,7 +46,7 @@ a:hover {
     font-size: 20px;
     border: 2px solid #dddddd;
     position: relative;
-    max-width: 700px;
+    width: 740px;
     padding: 10px 100px 10px 20px;
     margin: auto;
     background-color: white;
