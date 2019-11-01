@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(229, 226, 226);
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+a:hover {
+    background-color: #009999;
+    color: white !important;
+}
+.topnav a {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0px;
+    float: right;
+    color: rgb(194, 188, 188);
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.mike{
+    border-right: white 10px double;
+    border-left: white 10px double;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:  left!important;
+    padding: 18px 20px;
+    text-align: center;
+    margin-top: 0px;
+    clear: both;
+    background-color: #009999;
+    color: white!important;
+    margin-left: 255px;
+    font-size: 30px;
+}
+.main { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid #dddddd;
+    position: relative;
+    max-width: 700px;
+    padding: 10px 100px 10px 20px;
+    margin: auto;
+    background-color: white;
+    overflow: auto;
+    margin-top: 50px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #009999;
+    font-size: 25px;
+    border-bottom:  rgb(194, 188, 188) 2px solid;
+    margin: 5px 5px 20px 10px;
+    padding: 0px 20px 10px 0px;   
+}
+.row {
+    margin: 8px -16px;
+}
+.row,
+.row > .column {
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+    background-color: #009999;
+    opacity: 0.7;
+    border-radius: 15px;
+    border-right: white 10px solid;
+    border-left: white 10px double;
+    color: white;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 10px;
+    margin: 0px;
+    padding: 3px 10px;
+    z-index: 1;
+}
+.column {
+    align-self: auto;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+    position: relative;
+    left: 5px;
+    float: left;
+    padding: 0;
+}
+.row::after {
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    position: relative;
+    padding: 0;
+}
+.show {
+    display: block;
+}
+.foot {
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: #009999 solid 5px;
+    clear: both;
+    background-color: grey;
+    color: ivory;
+}

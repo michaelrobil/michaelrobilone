@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(229, 226, 226);
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+a:hover {
+    background-color: #009999;
+    color: white !important;
+}
+.topnav a {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0px;
+    float: right;
+    color: rgb(194, 188, 188);
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.mike{
+    border-right: white 10px double;
+    border-left: white 10px double;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:  left!important;
+    padding: 18px 20px;
+    text-align: center;
+    margin-top: 0px;
+    clear: both;
+    background-color: #009999;
+    color: white!important;
+    margin-left: 255px;
+    font-size: 30px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #009999;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+form {
+    border-top:  rgb(194, 188, 188) 2px solid;
+    padding-top: 20px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid rgb(194, 188, 188);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top:  6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #009999;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: violet;
+}
+.container {
+    font-size: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 2px;
+    background-color:white;
+    padding: 30px 20px;
+    max-width: 700px;
+    height: auto;
+    line-height: 6px;
+    margin: 48px 12px 12px 254px;
+}
+.foot {
+    position: fixed;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: #009999 solid 5px;
+    clear: both;
+    background-color: grey;
+    color: ivory;
+}
